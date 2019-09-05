@@ -1,0 +1,94 @@
+footer {
+    width: 90%;
+    height: 75px;
+    background-color: #002856;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 75px;
+}
+
+.footer-sns {
+    height: 75px;
+    float: left;
+}
+
+.footer-sns a {
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.pstr {
+    position: relative;
+}
+
+.wxewm {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1px;
+    height: 1px;
+    transition: all 0.5s;
+    transform-origin: bottom;
+    z-index: 20;
+}
+
+.wx:hover .wxewm {
+    transform: scale(100);
+}
+
+.wbewm {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1px;
+    height: 1px;
+    transition: all 0.5s;
+    transform-origin: bottom;
+    z-index: 20;
+}
+
+.wb:hover .wbewm {
+    transform: scale(100);
+}
+
+.footer-copy {
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    height: 75px;
+    float: left;
+}
+
+.footer-copy a {
+    color: white;
+}
+
+.footer-copy img {
+    position: relative;
+    top: 5px;
+}
+
+.footer-gotop {
+    font-size: 12px;
+    height: 75px;
+    float: right;
+}
+
+.footer-gotop a {
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer-gotop a span {
+    margin-left: 30px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
